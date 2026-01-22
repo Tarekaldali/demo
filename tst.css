@@ -19,22 +19,25 @@ a{
     color: black;
     font-size: 1rem;
 }
-.content{
+.nav-links{
     display: flex;
     gap: 20px;
     
 }
-.LOGO{
+.logo-primary{
     color: black;
     font-size: 1.5rem;
     font-weight: bold;
     font-family:'poppins', sans-serif;
 }
-.logo{
+.logo-secondary{
     color: blue;
     font-size: 1.5rem;
     font-family:'poppins', sans-serif;
     font-weight: bold;
+}
+.logo-container{
+    display: flex;
 }
 .nav-right{
     display: flex;
@@ -43,7 +46,7 @@ a{
     /* border: 1px black solid; */
     
 }
-.loginB, .signupB{
+.btn-login, .btn-signup{
     padding: 10px 20px;
     border: none;
     border-radius: 5rem;
@@ -52,7 +55,7 @@ a{
     cursor: pointer;
     font-family:'poppins', sans-serif;
 }
-.loginB{
+.btn-login{
     background-color: transparent;
     color: blue;
     border: 2px solid blue;
@@ -98,7 +101,7 @@ select{
     background-color: none;
    
 }
-.container{
+.hero-content{
     display: flex;
     /* border: 1px rgb(4, 0, 255) solid; */
     height: 65vh;
@@ -108,14 +111,14 @@ select{
     gap: 5rem;
    
 }
-.lorem{
+.hero-description{
     position: relative;
     left: 35px;
 
     color: black;
    
 }
-.doc{
+.hero-text{
     position: relative;
     left: 10px;
     align-items: center;
@@ -127,7 +130,7 @@ select{
     width: 90%;
     justify-content: center;
 }
-.main-container{
+.hero-section{
     display: flex;
    flex-direction: row;
    justify-content: center;
@@ -135,28 +138,28 @@ select{
     border: 1px rgb(0, 226, 49) solid; */
  
 }
-.h21{
+.hero-title{
     font-size: 2.4rem;
     font-family:'poppins', sans-serif;
     color: black;
 }
-.fav{
+.text-accent{
     color: blue;
 }
-.container-right{
+.hero-image{
     display: flex;
     /* border: 1px rgb(255, 0, 149) solid; */
     width: 50%;
     height: 80vh;
     justify-content: center;
 }
-.half-circle{
+.hero-decoration{
     position: absolute;
     bottom: 55px;
     right: 90px;
     z-index: -1;
 }
-.doctor-image{
+.doctor-photo{
     position: absolute;
     right: 200px;
     top: 50px;
@@ -164,7 +167,7 @@ select{
   height: 592px;
   z-index: 999;
 }
-.analy{
+.analytics-bar{
     display: flex;
     gap: 2.5rem;
     border:none;
@@ -174,7 +177,7 @@ select{
     position: absolute;
     bottom: 0;
 }
-.p1,.p2,.p3{
+.stat-item{
     position: relative;
     left: 9rem;
     color: rgb(255, 255, 255);
@@ -193,12 +196,12 @@ hr{
    left: 9rem;
    top: 1.5rem;
 }
-.po, .pd, .pa{
+.stat-label{
     position: relative;
     top: 10px;
     font-size: small;
 }
-.section2{
+.services-section{
     /* border: 1px solid rgb(236, 0, 0); */
     flex-direction: row;
     justify-content: center;
@@ -212,7 +215,7 @@ hr{
     margin-left: 8rem;
    
 }
-.covid,.suppliment,.heart,.mental-health{
+.service-card{
     position: relative;
     top: 5rem;
     width: 16rem;
@@ -221,7 +224,7 @@ hr{
     border-radius: 1rem;
     z-index: 999;
 }
-.consulting{
+.section-title{
     position: absolute;
     z-index: 10;
     left: 10rem;
@@ -233,7 +236,7 @@ hr{
     
    
 }
-.circle{
+.service-icon-bg{
     position: absolute;
     top: 25px;
     left: 15px;
@@ -243,7 +246,7 @@ hr{
     border-radius: 50%;
    
 }
-.circle-img{
+.service-icon{
     width: 40px;
     height: 40px;
     position: relative;
@@ -251,7 +254,7 @@ hr{
     left: 20px;
  
 }
-.p-img{
+.service-title{
     font-size: 1.2rem;
     font-weight: bold;
     font-family: 'poppins', sans-serif;
@@ -261,7 +264,7 @@ hr{
     top: 110px;
     left: 10px;
 }
-.p-under-img{
+.service-description{
     font-size: small;
     font-family: 'poppins', sans-serif;
     width: 200px;
@@ -270,14 +273,14 @@ hr{
     top: 60px;
     left: 10px;
 }
-.covid:hover, .suppliment:hover, .heart:hover, .mental-health:hover{
+.service-card:hover{
    background-color: rgb(25, 25, 238);
     cursor: pointer;
     color: white;
     border: none;
 
 }
-.section3{
+.why-section{
     position: relative;
     bottom: 10rem;
     /* border: 1px solid rgb(236, 0, 0);  */
@@ -285,7 +288,7 @@ hr{
     flex-direction: column;
     
 }
-.sec3-rightside{
+.why-section-content{
     display: flex;
     top: 2.5rem;
     position: relative;
@@ -297,7 +300,7 @@ hr{
     justify-content: center;
     align-items: center;
 }
-.why-choose-us{
+.section-heading{
     position: relative;
     bottom: 5.5rem;
     font-size: 2rem;
@@ -306,24 +309,24 @@ hr{
     color: black;
     left: 10rem;
 }
-.li{
+.list-item{
     list-style: none;
     position: relative;
     top: 2rem;
         
 }
-.li{
+.list-item{
    position: relative;
     right: 10rem;
 }
-.sec3-image{
+.why-image{
     position: relative;
     left: 2rem;
     bottom: 22rem;
 
    
 }
-.LINK{
+.link-primary{
     position: absolute;
     text-decoration: none;
     color: blue;
@@ -337,7 +340,7 @@ hr{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
 }
-.sec4{
+.testimonials-section{
     position: relative;
     padding: 4rem 0;
     height: auto;
@@ -347,52 +350,52 @@ hr{
     gap: 3rem;
     background-color: rgb(195, 219, 250);
 }
-.sec4-leftside{
+.testimonials-left{
     display: flex;
     flex-direction: column;
     gap: 1rem;
     width: 45%;
 }
-.p-sec4-left{
+.testimonials-title{
     font-size: 2rem;
     font-family: 'poppins', sans-serif;
     font-weight: bold;
     color: black;
 }
-.sec4-span{
+.text-highlight{
     color: blue;
 }
-.sec4-lorem{
+.testimonials-description{
     color: black;
     max-width: 32rem;
 }
-.avatars-row{
+.avatars-container{
     display: flex;
     align-items: center;
     gap: 1rem;
 }
-.avatars{
+.avatars-list{
     display: flex;
     align-items: center;
 }
-.sec4-img{ margin-left: -8px; }
-.sec4-img:first-child{ margin-left: 0; }
-.image-prof{
+.avatar-item{ margin-left: -8px; }
+.avatar-item:first-child{ margin-left: 0; }
+.avatar-image{
     width: 35px;
     height: 35px;
     border-radius: 50%;
     border: 3px solid rgb(195, 219, 250);
 }
-.rev{ color: #000; font-size: 0.9rem; }
+.review-count{ color: #000; font-size: 0.9rem; }
 
 /* Right side testimonial card */
-.sec4-rightside{
+.testimonials-right{
     width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.testimonial-card{
+.card-testimonial{
     width: 100%;
     max-width: 30rem;
     background-color: #f5f8ff;
@@ -401,18 +404,18 @@ hr{
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     padding: 1.25rem;
 }
-.card-top{
+.card-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0.75rem;
 }
-.card-user{ display: flex; align-items: center; gap: 0.75rem; }
-.card-avatar{ width: 44px; height: 44px; border-radius: 50%; }
-.card-name{ font-weight: 600; font-family: 'poppins', sans-serif; }
-.card-date{ font-size: 0.8rem; color: #666; }
-.card-stars{ color: #f5b301; letter-spacing: 2px; }
-.card-text{ color: #333; line-height: 1.5; font-size: 0.95rem; }
+.card-user-info{ display: flex; align-items: center; gap: 0.75rem; }
+.card-user-avatar{ width: 44px; height: 44px; border-radius: 50%; }
+.card-user-name{ font-weight: 600; font-family: 'poppins', sans-serif; }
+.card-user-date{ font-size: 0.8rem; color: #666; }
+.card-rating{ color: #f5b301; letter-spacing: 2px; }
+.card-content{ color: #333; line-height: 1.5; font-size: 0.95rem; }
 
 /* Newsletter */
 .newsletter{
