@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e1eeff;
+}
+nav{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 15px;
+   text-align: center;
+   /* border: black 1px solid; */
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+.content{
+    display: flex;
+    gap: 20px;
+    
+}
+.LOGO{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:'poppins', sans-serif;
+}
+.logo{
+    color: blue;
+    font-size: 1.5rem;
+    font-family:'poppins', sans-serif;
+    font-weight: bold;
+}
+.nav-right{
+    display: flex;
+    gap: 20px;
+    font-family:'poppins', sans-serif;
+    /* border: 1px black solid; */
+    
+}
+.loginB, .signupB{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5rem;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    font-family:'poppins', sans-serif;
+}
+.loginB{
+    background-color: transparent;
+    color: blue;
+    border: 2px solid blue;
+}
+.searchBtn{
+    border: none;  
+    background-color: white;
+    
+
+    
+}
+.searchBtn img{
+    width: 2.5rem;
+    height: 2.5rem;
+    position: relative;
+    left: 15px;
+}
+.dimg{
+    position: relative;
+    right: 20px;
+}
+.searchBox{
+    position: relative;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5rem;
+    outline: none;
+    width: 30rem;
+    background-color: white;
+    gap: 7rem;
+    
+   
+
+    
+
+}
+select{
+    border: none;
+    outline: none;
+    font-family:'poppins', sans-serif;
+    background-color: none;
+   
+}
+.container{
+    display: flex;
+    /* border: 1px rgb(4, 0, 255) solid; */
+    height: 65vh;
+    width: 35%;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+   
+}
+.lorem{
+    position: relative;
+    left: 35px;
+
+    color: black;
+   
+}
+.doc{
+    position: relative;
+    left: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    /* border: 1px rgb(0, 0, 0) solid; */
+    height: 23vh;
+    width: 90%;
+    justify-content: center;
+}
+.main-container{
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+/* 
+    border: 1px rgb(0, 226, 49) solid; */
+ 
+}
+.h21{
+    font-size: 2.4rem;
+    font-family:'poppins', sans-serif;
+    color: black;
+}
+.fav{
+    color: blue;
+}
+.container-right{
+    display: flex;
+    /* border: 1px rgb(255, 0, 149) solid; */
+    width: 50%;
+    height: 80vh;
+    justify-content: center;
+}
+.half-circle{
+    position: absolute;
+    bottom: 55px;
+    right: 90px;
+    z-index: -1;
+}
+.doctor-image{
+    position: absolute;
+    right: 200px;
+    top: 50px;
+  width: 700px;
+  height: 592px;
+  z-index: 999;
+}
+.analy{
+    display: flex;
+    gap: 2.5rem;
+    border:none;
+    width: 100%;
+    height: 17vh;
+    background-color: rgb(25, 25, 238);
+    position: absolute;
+    bottom: 0;
+}
+.p1,.p2,.p3{
+    position: relative;
+    left: 9rem;
+    color: rgb(255, 255, 255);
+    font-family:'poppins', sans-serif;
+    font-size: 1.3rem;
+    top: 1.5rem;
+    
+}
+
+hr{
+    position: relative;
+    border: 1px solid white;
+    width: 2px;
+    height: 50px;
+    font-weight: bold;
+   left: 9rem;
+   top: 1.5rem;
+}
+.po, .pd, .pa{
+    position: relative;
+    top: 10px;
+    font-size: small;
+}
+.section2{
+    /* border: 1px solid rgb(236, 0, 0); */
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 30rem;
+    gap: 0.9rem;
+    margin: auto;
+    margin-top: 3rem;
+    margin-left: 8rem;
+   
+}
+.covid,.suppliment,.heart,.mental-health{
+    position: relative;
+    top: 5rem;
+    width: 16rem;
+    height: 15rem;
+    border: 1px solid rgb(92, 92, 92);
+    border-radius: 1rem;
+    z-index: 999;
+}
+.consulting{
+    position: absolute;
+    z-index: 10;
+    left: 10rem;
+   font-family: 'poppins', sans-serif;
+   font-size: 2rem;
+    width:70%;
+    height: 15rem;
+    font-weight: bold;
+    
+   
+}
+.circle{
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(186, 214, 252);
+    border-radius: 50%;
+   
+}
+.circle-img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+ 
+}
+.p-img{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'poppins', sans-serif;
+    width: 150px;
+    height: 80px;
+    position: relative;
+    top: 110px;
+    left: 10px;
+}
+.p-under-img{
+    font-size: small;
+    font-family: 'poppins', sans-serif;
+    width: 200px;
+    height: 80px;
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+.covid:hover, .suppliment:hover, .heart:hover, .mental-health:hover{
+   background-color: rgb(25, 25, 238);
+    cursor: pointer;
+    color: white;
+    border: none;
+
+}
+.section3{
+    position: relative;
+    bottom: 10rem;
+    /* border: 1px solid rgb(236, 0, 0);  */
+    display: flex;
+    flex-direction: column;
+    
+}
+.sec3-rightside{
+    display: flex;
+    top: 2.5rem;
+    position: relative;
+    left: 29rem;
+    display: flex;
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 65%;
+    height: 35rem;
+    justify-content: center;
+    align-items: center;
+}
+.why-choose-us{
+    position: relative;
+    bottom: 5.5rem;
+    font-size: 2rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    color: black;
+    left: 10rem;
+}
+.li{
+    list-style: none;
+    position: relative;
+    top: 2rem;
+        
+}
+.li{
+   position: relative;
+    right: 10rem;
+}
+.sec3-image{
+    position: relative;
+    left: 2rem;
+    bottom: 22rem;
+
+   
+}
+.LINK{
+    position: absolute;
+    text-decoration: none;
+    color: blue;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 10rem;
+    right: 33rem;
+    width: 10rem;
+    font-size: 1rem ;   
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.sec4{
+    position: relative;
+    padding: 4rem 0;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background-color: rgb(195, 219, 250);
+}
+.sec4-leftside{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 45%;
+}
+.p-sec4-left{
+    font-size: 2rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.sec4-span{
+    color: blue;
+}
+.sec4-lorem{
+    color: black;
+    max-width: 32rem;
+}
+.avatars-row{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.avatars{
+    display: flex;
+    align-items: center;
+}
+.sec4-img{ margin-left: -8px; }
+.sec4-img:first-child{ margin-left: 0; }
+.image-prof{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 3px solid rgb(195, 219, 250);
+}
+.rev{ color: #000; font-size: 0.9rem; }
+
+/* Right side testimonial card */
+.sec4-rightside{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-card{
+    width: 100%;
+    max-width: 30rem;
+    background-color: #f5f8ff;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    padding: 1.25rem;
+}
+.card-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+.card-user{ display: flex; align-items: center; gap: 0.75rem; }
+.card-avatar{ width: 44px; height: 44px; border-radius: 50%; }
+.card-name{ font-weight: 600; font-family: 'poppins', sans-serif; }
+.card-date{ font-size: 0.8rem; color: #666; }
+.card-stars{ color: #f5b301; letter-spacing: 2px; }
+.card-text{ color: #333; line-height: 1.5; font-size: 0.95rem; }
+
+/* Newsletter */
+.newsletter{
+    background-color: rgb(25, 25, 238);
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+}
+.newsletter-container{ width: 85%; max-width: 1100px; }
+.newsletter-title{
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.newsletter-form{
+    display: flex;
+    align-items: center;
+    background: #d9d9d9;
+    border-radius: 999px;
+    padding: 0.75rem;
+    gap: 0.5rem;
+}
+.newsletter-input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+}
+.newsletter-button{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    background: #fff;
+    color: rgb(25, 25, 238);
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer{
+    background-color: rgb(25, 25, 238);
+    color: #fff;
+    padding-top: 3rem;
+}
+.footer-container{
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1.2fr;
+    gap: 2rem;
+    align-items: start;
+}
+.footer-logo{ font-size: 1.5rem; font-weight: 700; font-family: 'poppins', sans-serif; margin-bottom: 1rem; }
+.footer-text{ opacity: 0.95; line-height: 1.6; }
+.socials{ display: flex; gap: 0.75rem; margin-top: 1rem; }
+.social-dot{ width: 20px; height: 20px; border-radius: 50%; background: #c6d3ff; display: inline-block; }
+.footer-title{ font-size: 1.1rem; font-weight: 600; margin-bottom: 0.75rem; font-family: 'poppins', sans-serif; }
+.footer-links{ list-style: none; display: grid; gap: 0.5rem; }
+.footer-links a{ color: #fff; text-decoration: none; opacity: 0.95; }
+.map-placeholder{ width: 100%; height: 140px; background: #d9d9d9; border-radius: 14px; }
+.footer-bottom{
+    width: 85%;
+    max-width: 1100px;
+    margin: 2rem auto 2.5rem;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    padding-top: 1rem;
+    text-align: center;
+}
+
